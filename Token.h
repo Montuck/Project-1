@@ -2,6 +2,8 @@
 #define TOKEN_H
 #include <string>
 
+using namespace std;
+
 enum class TokenType {
     COLON,
     COLON_DASH,
@@ -19,20 +21,20 @@ enum class TokenType {
     ID,
     STRING,
     COMMENT,
-    EOF,
+    EFO,
     UNDEFINED
 };
 
 class Token
 {
 private:
-    string value;
+    std::string value;
     int lineNumber;
     TokenType type;
 
 public:
     Token(TokenType type, std::string description, int line);
-    void toString(TokenType _type); //Write method
+    std::string toString(TokenType _type); //Write method
 };
 
 #endif // TOKEN_H

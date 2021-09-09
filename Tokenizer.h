@@ -4,6 +4,8 @@
 
 #ifndef TOKENIZER_H
 #define TOKENIZER_H
+#include "Token.h"
+#include <string>
 
 class Tokenizer {
 private:
@@ -14,7 +16,7 @@ public:
     void indexTracker();
     void tokenCreator();
     void lineTracker();
-    void getNextToken(nextToken);
+    std::string getNextToken(TokenType nextToken);
 };
 
 #endif //TOKENIZER_H

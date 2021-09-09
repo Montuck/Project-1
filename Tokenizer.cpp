@@ -21,26 +21,26 @@ void Tokenizer::lineTracker() {
 
 }
 
-void Tokenizer::getNextToken(nextToken) {
+std::string Tokenizer::getNextToken(TokenType nextToken) {
     switch(nextToken) {
-        case COLON: return ":"; break;
-        case COLON_DASH: return ":-"; break;
-        case COMMA: return ","; break;
-        case PERIOD: return "."; break;
-        case Q_MARK: return "?"; break;
-        case LEFT_PAREN: return "("; break;
-        case RIGHT_PAREN: return ")"; break;
-        case MULTIPLY: return "*"; break;
-        case ADD: return "+"; break;
-        case SCHEMES: return "Schemes"; break;
-        case FACTS: return "Facts"; break;
-        case RULES: return "Rules"; break;
-        case QUERIES: return "Queries"; break;
-        case ID: return "ID"; break;
-        case STRING: return "string"; break;
-        case COMMENT: return "comment"; break;
-        case EOF: return "eof"; break;
-        case UNDEFINED: return "undefined"; break;
+        case TokenType::COLON: return ":"; break;
+        case TokenType::COLON_DASH: return ":-"; break;
+        case TokenType::COMMA: return ","; break;
+        case TokenType::PERIOD: return "."; break;
+        case TokenType::Q_MARK: return "?"; break;
+        case TokenType::LEFT_PAREN: return "("; break;
+        case TokenType::RIGHT_PAREN: return ")"; break;
+        case TokenType::MULTIPLY: return "*"; break;
+        case TokenType::ADD: return "+"; break;
+        case TokenType::SCHEMES: return "Schemes"; break;
+        case TokenType::FACTS: return "Facts"; break;
+        case TokenType::RULES: return "Rules"; break;
+        case TokenType::QUERIES: return "Queries"; break;
+        case TokenType::ID: return "ID"; break;
+        case TokenType::STRING: return "string"; break;
+        case TokenType::COMMENT: return "comment"; break;
+        case TokenType::EFO: return "eof"; break;
+        case TokenType::UNDEFINED: return "undefined"; break;
         default: return "nothing"; break;
     }
 }

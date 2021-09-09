@@ -24,12 +24,6 @@ void Lexer::Run(std::string& input) {
     loop while input.size() > 0 {
         set maxRead to 0
         set maxAutomaton to the first automaton in automata
-    */
-    int lineNumber = 1;
-    while(input.size() > 0) {
-        int maxRead = 0;
-        maxAutomaton
-    }
 
         // TODO: you need to handle whitespace inbetween tokens
 
