@@ -1,6 +1,8 @@
 #ifndef MATCHERAUTOMATON_H
 #define MATCHERAUTOMATON_H
 
+#include "Automoton.h"
+
 class MatcherAutomaton : public Automaton
 {
 private:
