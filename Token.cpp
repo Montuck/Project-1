@@ -1,10 +1,12 @@
 #include "Token.h"
 
-Token::Token(TokenType type, std::string description, int line) {
-    // TODO: initialize all member variables
+Token::Token(TokenType token, std::string description, int line) {
+    type = token;
+    lineNumber = line;
+    value = description;
 }
 
-std::string Token::toString(TokenType _type) {
+string Token::toString(TokenType _type) {
     switch(_type) {
         case TokenType::COLON: return ":"; break;
         case TokenType::COLON_DASH: return ":-"; break;
@@ -27,3 +29,8 @@ std::string Token::toString(TokenType _type) {
         default: return "nothing"; break;
     }
 }
+
+TokenType Token::getTokenType(){
+    return type;
+}
+

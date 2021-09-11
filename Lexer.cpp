@@ -1,6 +1,7 @@
 #include "Lexer.h"
 #include "ColonAutomaton.h"
 #include "ColonDashAutomaton.h"
+#include "Token.h"
 
 Lexer::Lexer() {
     CreateAutomata();
@@ -24,8 +25,13 @@ void Lexer::Run(std::string& input) {
     loop while input.size() > 0 {
         set maxRead to 0
         set maxAutomaton to the first automaton in automata
+    */
+    lineNumber = 1;
+    while(input.size() > 0) {
 
-        // TODO: you need to handle whitespace inbetween tokens
+    }
+    /*
+        // TODO: you need to handle whitespace in between tokens
 
         // Here is the "Parallel" part of the algorithm
         //   Each automaton runs with the same input

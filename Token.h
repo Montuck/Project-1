@@ -28,13 +28,15 @@ enum class TokenType {
 class Token
 {
 private:
-    std::string value;
-    int lineNumber;
-    TokenType type;
+    std::string value = "empty";
+    int lineNumber = 0;
+    TokenType type = TokenType::UNDEFINED;
 
 public:
-    Token(TokenType type, std::string description, int line);
-    std::string toString(TokenType _type); //Write method
+    //Token();
+    Token(TokenType token, string description, int line);
+    string toString(TokenType _type);
+    TokenType getTokenType();
 };
 
 #endif // TOKEN_H

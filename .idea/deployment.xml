@@ -5,10 +5,11 @@
       <paths name="Z-Leb (3e558085-72d1-41bc-b717-6dc4e00d8d36)">
         <serverdata>
           <mappings>
-            <mapping deploy="/tmp/tmp.yMrOdRlpSp" local="$PROJECT_DIR$/../Project-1" />
+            <mapping deploy="/proj_1" local="$PROJECT_DIR$" />
           </mappings>
           <excludedPaths>
-            <excludedPath local="true" path="$PROJECT_DIR$/../Project-1/cmake-build-debug-z-leb" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-z-leb" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-z-leb" />
           </excludedPaths>
         </serverdata>
       </paths>

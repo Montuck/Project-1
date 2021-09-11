@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/tmp/tmp.yMrOdRlpSp/ColonAutomaton.cpp" "/tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb/CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o"
-  "/tmp/tmp.yMrOdRlpSp/ColonDashAutomaton.cpp" "/tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb/CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o"
-  "/tmp/tmp.yMrOdRlpSp/Lexer.cpp" "/tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb/CMakeFiles/Project_1.dir/Lexer.cpp.o"
-  "/tmp/tmp.yMrOdRlpSp/Token.cpp" "/tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb/CMakeFiles/Project_1.dir/Token.cpp.o"
-  "/tmp/tmp.yMrOdRlpSp/Tokenizer.cpp" "/tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb/CMakeFiles/Project_1.dir/Tokenizer.cpp.o"
-  "/tmp/tmp.yMrOdRlpSp/main.cpp" "/tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb/CMakeFiles/Project_1.dir/main.cpp.o"
+  "/users/guest/t/tw443/proj_1/ColonAutomaton.cpp" "/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o"
+  "/users/guest/t/tw443/proj_1/ColonDashAutomaton.cpp" "/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o"
+  "/users/guest/t/tw443/proj_1/Lexer.cpp" "/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles/Project_1.dir/Lexer.cpp.o"
+  "/users/guest/t/tw443/proj_1/Token.cpp" "/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles/Project_1.dir/Token.cpp.o"
+  "/users/guest/t/tw443/proj_1/Tokenizer.cpp" "/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles/Project_1.dir/Tokenizer.cpp.o"
+  "/users/guest/t/tw443/proj_1/main.cpp" "/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles/Project_1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

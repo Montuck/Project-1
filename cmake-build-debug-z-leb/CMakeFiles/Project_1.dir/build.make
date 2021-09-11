@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/tmp.yMrOdRlpSp
+CMAKE_SOURCE_DIR = /users/guest/t/tw443/proj_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb
+CMAKE_BINARY_DIR = /users/guest/t/tw443/proj_1/cmake-build-debug-z-leb
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Project_1.dir/depend.make
@@ -59,81 +59,81 @@ include CMakeFiles/Project_1.dir/flags.make
 
 CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o: ../ColonAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o -c /tmp/tmp.yMrOdRlpSp/ColonAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o -c /users/guest/t/tw443/proj_1/ColonAutomaton.cpp
 
 CMakeFiles/Project_1.dir/ColonAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/ColonAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.yMrOdRlpSp/ColonAutomaton.cpp > CMakeFiles/Project_1.dir/ColonAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/ColonAutomaton.cpp > CMakeFiles/Project_1.dir/ColonAutomaton.cpp.i
 
 CMakeFiles/Project_1.dir/ColonAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/ColonAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.yMrOdRlpSp/ColonAutomaton.cpp -o CMakeFiles/Project_1.dir/ColonAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/ColonAutomaton.cpp -o CMakeFiles/Project_1.dir/ColonAutomaton.cpp.s
 
 CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o: ../ColonDashAutomaton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o -c /tmp/tmp.yMrOdRlpSp/ColonDashAutomaton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o -c /users/guest/t/tw443/proj_1/ColonDashAutomaton.cpp
 
 CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.yMrOdRlpSp/ColonDashAutomaton.cpp > CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/ColonDashAutomaton.cpp > CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.i
 
 CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.yMrOdRlpSp/ColonDashAutomaton.cpp -o CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/ColonDashAutomaton.cpp -o CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.s
 
 CMakeFiles/Project_1.dir/Lexer.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project_1.dir/Lexer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Lexer.cpp.o -c /tmp/tmp.yMrOdRlpSp/Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project_1.dir/Lexer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Lexer.cpp.o -c /users/guest/t/tw443/proj_1/Lexer.cpp
 
 CMakeFiles/Project_1.dir/Lexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Lexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.yMrOdRlpSp/Lexer.cpp > CMakeFiles/Project_1.dir/Lexer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/Lexer.cpp > CMakeFiles/Project_1.dir/Lexer.cpp.i
 
 CMakeFiles/Project_1.dir/Lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Lexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.yMrOdRlpSp/Lexer.cpp -o CMakeFiles/Project_1.dir/Lexer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/Lexer.cpp -o CMakeFiles/Project_1.dir/Lexer.cpp.s
 
 CMakeFiles/Project_1.dir/main.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project_1.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/main.cpp.o -c /tmp/tmp.yMrOdRlpSp/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project_1.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/main.cpp.o -c /users/guest/t/tw443/proj_1/main.cpp
 
 CMakeFiles/Project_1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.yMrOdRlpSp/main.cpp > CMakeFiles/Project_1.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/main.cpp > CMakeFiles/Project_1.dir/main.cpp.i
 
 CMakeFiles/Project_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.yMrOdRlpSp/main.cpp -o CMakeFiles/Project_1.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/main.cpp -o CMakeFiles/Project_1.dir/main.cpp.s
 
 CMakeFiles/Project_1.dir/Token.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/Token.cpp.o: ../Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Project_1.dir/Token.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Token.cpp.o -c /tmp/tmp.yMrOdRlpSp/Token.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Project_1.dir/Token.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Token.cpp.o -c /users/guest/t/tw443/proj_1/Token.cpp
 
 CMakeFiles/Project_1.dir/Token.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Token.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.yMrOdRlpSp/Token.cpp > CMakeFiles/Project_1.dir/Token.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/Token.cpp > CMakeFiles/Project_1.dir/Token.cpp.i
 
 CMakeFiles/Project_1.dir/Token.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Token.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.yMrOdRlpSp/Token.cpp -o CMakeFiles/Project_1.dir/Token.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/Token.cpp -o CMakeFiles/Project_1.dir/Token.cpp.s
 
 CMakeFiles/Project_1.dir/Tokenizer.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/Tokenizer.cpp.o: ../Tokenizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Project_1.dir/Tokenizer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Tokenizer.cpp.o -c /tmp/tmp.yMrOdRlpSp/Tokenizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Project_1.dir/Tokenizer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Tokenizer.cpp.o -c /users/guest/t/tw443/proj_1/Tokenizer.cpp
 
 CMakeFiles/Project_1.dir/Tokenizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Tokenizer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /tmp/tmp.yMrOdRlpSp/Tokenizer.cpp > CMakeFiles/Project_1.dir/Tokenizer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/Tokenizer.cpp > CMakeFiles/Project_1.dir/Tokenizer.cpp.i
 
 CMakeFiles/Project_1.dir/Tokenizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Tokenizer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /tmp/tmp.yMrOdRlpSp/Tokenizer.cpp -o CMakeFiles/Project_1.dir/Tokenizer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/Tokenizer.cpp -o CMakeFiles/Project_1.dir/Tokenizer.cpp.s
 
 # Object files for target Project_1
 Project_1_OBJECTS = \
@@ -155,7 +155,7 @@ Project_1: CMakeFiles/Project_1.dir/Token.cpp.o
 Project_1: CMakeFiles/Project_1.dir/Tokenizer.cpp.o
 Project_1: CMakeFiles/Project_1.dir/build.make
 Project_1: CMakeFiles/Project_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Project_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Project_1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project_1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/Project_1.dir/clean:
 .PHONY : CMakeFiles/Project_1.dir/clean
 
 CMakeFiles/Project_1.dir/depend:
-	cd /tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/tmp.yMrOdRlpSp /tmp/tmp.yMrOdRlpSp /tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb /tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb /tmp/tmp.yMrOdRlpSp/cmake-build-debug-z-leb/CMakeFiles/Project_1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /users/guest/t/tw443/proj_1/cmake-build-debug-z-leb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /users/guest/t/tw443/proj_1 /users/guest/t/tw443/proj_1 /users/guest/t/tw443/proj_1/cmake-build-debug-z-leb /users/guest/t/tw443/proj_1/cmake-build-debug-z-leb /users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles/Project_1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Project_1.dir/depend
 

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/users/guest/t/tw443/proj_1/Automaton.h
+Token.h
+/users/guest/t/tw443/proj_1/Token.h
+
+/users/guest/t/tw443/proj_1/Lexer.h
+vector
+-
+Automaton.h
+/users/guest/t/tw443/proj_1/Automaton.h
+Token.h
+/users/guest/t/tw443/proj_1/Token.h
+
+/users/guest/t/tw443/proj_1/Token.h
+string
+-
+
+/users/guest/t/tw443/proj_1/main.cpp
+Lexer.h
+/users/guest/t/tw443/proj_1/Lexer.h
+iostream
+-
+fstream
+-
+

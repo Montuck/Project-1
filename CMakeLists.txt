@@ -16,5 +16,6 @@ add_executable(Project_1
         main.cpp
         Token.cpp
         Token.h
-        Tokenizer.cpp
-        Tokenizer.h)
+        )
+
+file(COPY resources DESTINATION ${CMAKE_BINARY_DIR})
