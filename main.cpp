@@ -26,10 +26,10 @@ int main(int argc, char** argv) {
     else if (!(fin.is_open())) {
         cout << "failure" << endl;
     }
-    string outPut = typo.toString(typo.getTokenType());
-    cout << outPut << endl;
     Lexer* lexer = new Lexer();
 
+    string col = ":-";
+    lexer->Run(col);
     // TODO
 
     delete lexer;

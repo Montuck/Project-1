@@ -1,6 +1,7 @@
 #include "Lexer.h"
 #include "ColonAutomaton.h"
 #include "ColonDashAutomaton.h"
+#include <iostream>
 
 Lexer::Lexer() {
     CreateAutomata();
