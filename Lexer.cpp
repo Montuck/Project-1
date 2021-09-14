@@ -1,6 +1,16 @@
 #include "Lexer.h"
 #include "ColonAutomaton.h"
 #include "ColonDashAutomaton.h"
+#include "Add.h"
+#include "Comma.h"
+#include "Left_Paren.h"
+#include "Multiply.h"
+#include "Period.h"
+#include "Q_Mark.h"
+#include "Queries.h"
+#include "Right_Paren.h"
+#include "Rules.h"
+#include "Schemes.h"
 #include <iostream>
 
 Lexer::Lexer() {
@@ -12,7 +22,10 @@ Lexer::~Lexer() {
 }
 
 void Lexer::CreateAutomata() {
+    automata.push_back(new RulesAutomaton());
+    automata.push_back(new QueriesAutomaton());
     automata.push_back(new ColonAutomaton());
+    automata.push_back(new ColonDashAutomaton());
     automata.push_back(new ColonDashAutomaton());
     // TODO: Add the other needed automata here
 }
@@ -26,6 +39,9 @@ void Lexer::Run(std::string& input) {
     while (input.size() > 0) {
         maxRead = 0;
         maxAutomaton = automata.front();
+        while (&input[0] == " ") {
+            input.erase(input.begin());
+        }
         for (int i = 0; i < automata.size(); i++) {
             inputRead = automata.at(i)->Start(input);
             if (inputRead > maxRead) {
