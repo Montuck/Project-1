@@ -1,7 +1,7 @@
 #ifndef MATCHERAUTOMATON_H
 #define MATCHERAUTOMATON_H
 
-#include "Automoton.h"
+#include "Automaton.h"
 
 class MatcherAutomaton : public Automaton
 {
@@ -9,7 +9,7 @@ private:
     std::string toMatch;
 public:
     MatcherAutomaton(std::string toMatch, TokenType tokenType);
-    int S0(const std::string& input);
+    void S0(const std::string& input);
 };
 
 #endif

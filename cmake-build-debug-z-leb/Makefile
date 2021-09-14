@@ -204,6 +204,33 @@ Lexer.cpp.s:
 	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Lexer.cpp.s
 .PHONY : Lexer.cpp.s
 
+MatcherAutomaton.o: MatcherAutomaton.cpp.o
+
+.PHONY : MatcherAutomaton.o
+
+# target to build an object file
+MatcherAutomaton.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.o
+.PHONY : MatcherAutomaton.cpp.o
+
+MatcherAutomaton.i: MatcherAutomaton.cpp.i
+
+.PHONY : MatcherAutomaton.i
+
+# target to preprocess a source file
+MatcherAutomaton.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.i
+.PHONY : MatcherAutomaton.cpp.i
+
+MatcherAutomaton.s: MatcherAutomaton.cpp.s
+
+.PHONY : MatcherAutomaton.s
+
+# target to generate assembly for a file
+MatcherAutomaton.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.s
+.PHONY : MatcherAutomaton.cpp.s
+
 Token.o: Token.cpp.o
 
 .PHONY : Token.o
@@ -230,33 +257,6 @@ Token.s: Token.cpp.s
 Token.cpp.s:
 	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Token.cpp.s
 .PHONY : Token.cpp.s
-
-Tokenizer.o: Tokenizer.cpp.o
-
-.PHONY : Tokenizer.o
-
-# target to build an object file
-Tokenizer.cpp.o:
-	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Tokenizer.cpp.o
-.PHONY : Tokenizer.cpp.o
-
-Tokenizer.i: Tokenizer.cpp.i
-
-.PHONY : Tokenizer.i
-
-# target to preprocess a source file
-Tokenizer.cpp.i:
-	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Tokenizer.cpp.i
-.PHONY : Tokenizer.cpp.i
-
-Tokenizer.s: Tokenizer.cpp.s
-
-.PHONY : Tokenizer.s
-
-# target to generate assembly for a file
-Tokenizer.cpp.s:
-	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Tokenizer.cpp.s
-.PHONY : Tokenizer.cpp.s
 
 main.o: main.cpp.o
 
@@ -303,12 +303,12 @@ help:
 	@echo "... Lexer.o"
 	@echo "... Lexer.i"
 	@echo "... Lexer.s"
+	@echo "... MatcherAutomaton.o"
+	@echo "... MatcherAutomaton.i"
+	@echo "... MatcherAutomaton.s"
 	@echo "... Token.o"
 	@echo "... Token.i"
 	@echo "... Token.s"
-	@echo "... Tokenizer.o"
-	@echo "... Tokenizer.i"
-	@echo "... Tokenizer.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

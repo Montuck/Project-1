@@ -18,13 +18,14 @@ CMakeFiles/Project_1.dir/Lexer.cpp.o
  /users/guest/t/tw443/proj_1/Lexer.cpp
  /users/guest/t/tw443/proj_1/Lexer.h
  /users/guest/t/tw443/proj_1/Token.h
+CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.o
+ /users/guest/t/tw443/proj_1/Automaton.h
+ /users/guest/t/tw443/proj_1/MatcherAutomaton.cpp
+ /users/guest/t/tw443/proj_1/MatcherAutomaton.h
+ /users/guest/t/tw443/proj_1/Token.h
 CMakeFiles/Project_1.dir/Token.cpp.o
  /users/guest/t/tw443/proj_1/Token.cpp
  /users/guest/t/tw443/proj_1/Token.h
-CMakeFiles/Project_1.dir/Tokenizer.cpp.o
- /users/guest/t/tw443/proj_1/Token.h
- /users/guest/t/tw443/proj_1/Tokenizer.cpp
- /users/guest/t/tw443/proj_1/Tokenizer.h
 CMakeFiles/Project_1.dir/main.cpp.o
  /users/guest/t/tw443/proj_1/Automaton.h
  /users/guest/t/tw443/proj_1/Lexer.h

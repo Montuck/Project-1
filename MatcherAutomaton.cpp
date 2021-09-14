@@ -1,6 +1,6 @@
 #include "MatcherAutomaton.h"
 
-int MatcherAutomaton::S0(const std::string& input) {
+void MatcherAutomaton::S0(const std::string& input) {
     bool isMatch = true;
     inputRead = 0;  // member variable inherited from Automaton class
     for (int i = 0; i < (int)toMatch.size() && isMatch; i++) {
@@ -10,5 +10,5 @@ int MatcherAutomaton::S0(const std::string& input) {
     if (isMatch) {
         inputRead = toMatch.size();
     }
-    return inputRead;
+    //return inputRead;
 }
