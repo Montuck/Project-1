@@ -1,7 +1,7 @@
-#include "ID.h"
+#include "Comment.h"
 
-void IDAutomaton::S0(const std::string& input) {
-    if (isalpha(input[index])) {
+void CommentAutomaton::S0(const std::string& input) {
+    if (input[index] == "#") {
         inputRead += 1;
     }
     else if (isalnum(input[index])) {

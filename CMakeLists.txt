@@ -16,8 +16,6 @@ add_executable(Project_1
         main.cpp
         Token.cpp
         Token.h
-        MatcherAutomaton.cpp
-        MatcherAutomaton.h
         )
 
 file(COPY resources DESTINATION ${CMAKE_BINARY_DIR})

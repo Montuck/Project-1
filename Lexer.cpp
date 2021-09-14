@@ -11,6 +11,8 @@
 #include "Right_Paren.h"
 #include "Rules.h"
 #include "Schemes.h"
+#include "String.h"
+#include "ID.h"
 #include <iostream>
 
 Lexer::Lexer() {
@@ -25,7 +27,11 @@ void Lexer::CreateAutomata() {
     automata.push_back(new RulesAutomaton());
     automata.push_back(new QueriesAutomaton());
     automata.push_back(new ColonAutomaton());
-    automata.push_back(new ColonDashAutomaton());
+    automata.push_back(new IDAutomaton());
+    automata.push_back(new Left_Paren_Automaton());
+    automata.push_back(new StringAutomaton());
+    automata.push_back(new CommaAutomaton());
+    automata.push_back(new StringAutomaton());
     automata.push_back(new ColonDashAutomaton());
     // TODO: Add the other needed automata here
 }
@@ -39,7 +45,7 @@ void Lexer::Run(std::string& input) {
     while (input.size() > 0) {
         maxRead = 0;
         maxAutomaton = automata.front();
-        while (&input[0] == " ") {
+        while (isspace(input[0])) {
             input.erase(input.begin());
         }
         for (int i = 0; i < automata.size(); i++) {
