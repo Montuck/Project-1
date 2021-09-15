@@ -6,6 +6,8 @@ set(CMAKE_CXX_STANDARD 14)
 include_directories(.)
 
 add_executable(Project_1
+        Add.h
+        Add.cpp
         Automaton.h
         ColonAutomaton.cpp
         ColonAutomaton.h

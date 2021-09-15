@@ -99,10 +99,82 @@
 		<Unit filename="/users/guest/t/tw443/proj_1/ColonDashAutomaton.h">
 			<Option target="Project_1"/>
 		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Comma.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Comma.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Comment.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Comment.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/ID.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/ID.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Left_Paren.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Left_Paren.h">
+			<Option target="Project_1"/>
+		</Unit>
 		<Unit filename="/users/guest/t/tw443/proj_1/Lexer.cpp">
 			<Option target="Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/t/tw443/proj_1/Lexer.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Multiply.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Multiply.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Period.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Period.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Q_Mark.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Q_Mark.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Queries.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Queries.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Right_Paren.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Right_Paren.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Rules.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Rules.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Schemes.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Schemes.h">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/String.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/String.h">
 			<Option target="Project_1"/>
 		</Unit>
 		<Unit filename="/users/guest/t/tw443/proj_1/Token.cpp">

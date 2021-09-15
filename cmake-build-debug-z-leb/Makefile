@@ -177,6 +177,114 @@ ColonDashAutomaton.cpp.s:
 	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.s
 .PHONY : ColonDashAutomaton.cpp.s
 
+Comma.o: Comma.cpp.o
+
+.PHONY : Comma.o
+
+# target to build an object file
+Comma.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Comma.cpp.o
+.PHONY : Comma.cpp.o
+
+Comma.i: Comma.cpp.i
+
+.PHONY : Comma.i
+
+# target to preprocess a source file
+Comma.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Comma.cpp.i
+.PHONY : Comma.cpp.i
+
+Comma.s: Comma.cpp.s
+
+.PHONY : Comma.s
+
+# target to generate assembly for a file
+Comma.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Comma.cpp.s
+.PHONY : Comma.cpp.s
+
+Comment.o: Comment.cpp.o
+
+.PHONY : Comment.o
+
+# target to build an object file
+Comment.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Comment.cpp.o
+.PHONY : Comment.cpp.o
+
+Comment.i: Comment.cpp.i
+
+.PHONY : Comment.i
+
+# target to preprocess a source file
+Comment.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Comment.cpp.i
+.PHONY : Comment.cpp.i
+
+Comment.s: Comment.cpp.s
+
+.PHONY : Comment.s
+
+# target to generate assembly for a file
+Comment.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Comment.cpp.s
+.PHONY : Comment.cpp.s
+
+ID.o: ID.cpp.o
+
+.PHONY : ID.o
+
+# target to build an object file
+ID.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/ID.cpp.o
+.PHONY : ID.cpp.o
+
+ID.i: ID.cpp.i
+
+.PHONY : ID.i
+
+# target to preprocess a source file
+ID.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/ID.cpp.i
+.PHONY : ID.cpp.i
+
+ID.s: ID.cpp.s
+
+.PHONY : ID.s
+
+# target to generate assembly for a file
+ID.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/ID.cpp.s
+.PHONY : ID.cpp.s
+
+Left_Paren.o: Left_Paren.cpp.o
+
+.PHONY : Left_Paren.o
+
+# target to build an object file
+Left_Paren.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Left_Paren.cpp.o
+.PHONY : Left_Paren.cpp.o
+
+Left_Paren.i: Left_Paren.cpp.i
+
+.PHONY : Left_Paren.i
+
+# target to preprocess a source file
+Left_Paren.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Left_Paren.cpp.i
+.PHONY : Left_Paren.cpp.i
+
+Left_Paren.s: Left_Paren.cpp.s
+
+.PHONY : Left_Paren.s
+
+# target to generate assembly for a file
+Left_Paren.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Left_Paren.cpp.s
+.PHONY : Left_Paren.cpp.s
+
 Lexer.o: Lexer.cpp.o
 
 .PHONY : Lexer.o
@@ -203,6 +311,222 @@ Lexer.s: Lexer.cpp.s
 Lexer.cpp.s:
 	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Lexer.cpp.s
 .PHONY : Lexer.cpp.s
+
+Multiply.o: Multiply.cpp.o
+
+.PHONY : Multiply.o
+
+# target to build an object file
+Multiply.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Multiply.cpp.o
+.PHONY : Multiply.cpp.o
+
+Multiply.i: Multiply.cpp.i
+
+.PHONY : Multiply.i
+
+# target to preprocess a source file
+Multiply.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Multiply.cpp.i
+.PHONY : Multiply.cpp.i
+
+Multiply.s: Multiply.cpp.s
+
+.PHONY : Multiply.s
+
+# target to generate assembly for a file
+Multiply.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Multiply.cpp.s
+.PHONY : Multiply.cpp.s
+
+Period.o: Period.cpp.o
+
+.PHONY : Period.o
+
+# target to build an object file
+Period.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Period.cpp.o
+.PHONY : Period.cpp.o
+
+Period.i: Period.cpp.i
+
+.PHONY : Period.i
+
+# target to preprocess a source file
+Period.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Period.cpp.i
+.PHONY : Period.cpp.i
+
+Period.s: Period.cpp.s
+
+.PHONY : Period.s
+
+# target to generate assembly for a file
+Period.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Period.cpp.s
+.PHONY : Period.cpp.s
+
+Q_Mark.o: Q_Mark.cpp.o
+
+.PHONY : Q_Mark.o
+
+# target to build an object file
+Q_Mark.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Q_Mark.cpp.o
+.PHONY : Q_Mark.cpp.o
+
+Q_Mark.i: Q_Mark.cpp.i
+
+.PHONY : Q_Mark.i
+
+# target to preprocess a source file
+Q_Mark.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Q_Mark.cpp.i
+.PHONY : Q_Mark.cpp.i
+
+Q_Mark.s: Q_Mark.cpp.s
+
+.PHONY : Q_Mark.s
+
+# target to generate assembly for a file
+Q_Mark.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Q_Mark.cpp.s
+.PHONY : Q_Mark.cpp.s
+
+Queries.o: Queries.cpp.o
+
+.PHONY : Queries.o
+
+# target to build an object file
+Queries.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Queries.cpp.o
+.PHONY : Queries.cpp.o
+
+Queries.i: Queries.cpp.i
+
+.PHONY : Queries.i
+
+# target to preprocess a source file
+Queries.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Queries.cpp.i
+.PHONY : Queries.cpp.i
+
+Queries.s: Queries.cpp.s
+
+.PHONY : Queries.s
+
+# target to generate assembly for a file
+Queries.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Queries.cpp.s
+.PHONY : Queries.cpp.s
+
+Right_Paren.o: Right_Paren.cpp.o
+
+.PHONY : Right_Paren.o
+
+# target to build an object file
+Right_Paren.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Right_Paren.cpp.o
+.PHONY : Right_Paren.cpp.o
+
+Right_Paren.i: Right_Paren.cpp.i
+
+.PHONY : Right_Paren.i
+
+# target to preprocess a source file
+Right_Paren.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Right_Paren.cpp.i
+.PHONY : Right_Paren.cpp.i
+
+Right_Paren.s: Right_Paren.cpp.s
+
+.PHONY : Right_Paren.s
+
+# target to generate assembly for a file
+Right_Paren.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Right_Paren.cpp.s
+.PHONY : Right_Paren.cpp.s
+
+Rules.o: Rules.cpp.o
+
+.PHONY : Rules.o
+
+# target to build an object file
+Rules.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Rules.cpp.o
+.PHONY : Rules.cpp.o
+
+Rules.i: Rules.cpp.i
+
+.PHONY : Rules.i
+
+# target to preprocess a source file
+Rules.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Rules.cpp.i
+.PHONY : Rules.cpp.i
+
+Rules.s: Rules.cpp.s
+
+.PHONY : Rules.s
+
+# target to generate assembly for a file
+Rules.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Rules.cpp.s
+.PHONY : Rules.cpp.s
+
+Schemes.o: Schemes.cpp.o
+
+.PHONY : Schemes.o
+
+# target to build an object file
+Schemes.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Schemes.cpp.o
+.PHONY : Schemes.cpp.o
+
+Schemes.i: Schemes.cpp.i
+
+.PHONY : Schemes.i
+
+# target to preprocess a source file
+Schemes.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Schemes.cpp.i
+.PHONY : Schemes.cpp.i
+
+Schemes.s: Schemes.cpp.s
+
+.PHONY : Schemes.s
+
+# target to generate assembly for a file
+Schemes.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Schemes.cpp.s
+.PHONY : Schemes.cpp.s
+
+String.o: String.cpp.o
+
+.PHONY : String.o
+
+# target to build an object file
+String.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/String.cpp.o
+.PHONY : String.cpp.o
+
+String.i: String.cpp.i
+
+.PHONY : String.i
+
+# target to preprocess a source file
+String.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/String.cpp.i
+.PHONY : String.cpp.i
+
+String.s: String.cpp.s
+
+.PHONY : String.s
+
+# target to generate assembly for a file
+String.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/String.cpp.s
+.PHONY : String.cpp.s
 
 Token.o: Token.cpp.o
 
@@ -273,9 +597,45 @@ help:
 	@echo "... ColonDashAutomaton.o"
 	@echo "... ColonDashAutomaton.i"
 	@echo "... ColonDashAutomaton.s"
+	@echo "... Comma.o"
+	@echo "... Comma.i"
+	@echo "... Comma.s"
+	@echo "... Comment.o"
+	@echo "... Comment.i"
+	@echo "... Comment.s"
+	@echo "... ID.o"
+	@echo "... ID.i"
+	@echo "... ID.s"
+	@echo "... Left_Paren.o"
+	@echo "... Left_Paren.i"
+	@echo "... Left_Paren.s"
 	@echo "... Lexer.o"
 	@echo "... Lexer.i"
 	@echo "... Lexer.s"
+	@echo "... Multiply.o"
+	@echo "... Multiply.i"
+	@echo "... Multiply.s"
+	@echo "... Period.o"
+	@echo "... Period.i"
+	@echo "... Period.s"
+	@echo "... Q_Mark.o"
+	@echo "... Q_Mark.i"
+	@echo "... Q_Mark.s"
+	@echo "... Queries.o"
+	@echo "... Queries.i"
+	@echo "... Queries.s"
+	@echo "... Right_Paren.o"
+	@echo "... Right_Paren.i"
+	@echo "... Right_Paren.s"
+	@echo "... Rules.o"
+	@echo "... Rules.i"
+	@echo "... Rules.s"
+	@echo "... Schemes.o"
+	@echo "... Schemes.i"
+	@echo "... Schemes.s"
+	@echo "... String.o"
+	@echo "... String.i"
+	@echo "... String.s"
 	@echo "... Token.o"
 	@echo "... Token.i"
 	@echo "... Token.s"

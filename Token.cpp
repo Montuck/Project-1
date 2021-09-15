@@ -6,15 +6,15 @@ Token::Token(TokenType token, std::string description, int line) {
     value = description;
 }
 
-string Token::toString(TokenType _type) {
+string Token::toString() {
    string output = "(";
-   output += getEnumString(_type);
+   output += getEnumString(type);
    output += ',';
    output += '"';
-   output += getTokenType(_type);
+   output += getTokenType(type);
    output += '"';
    output += ',';
-   output += lineNumber;
+   output += to_string(lineNumber);
    output += ")";
    return output;
 }

@@ -83,9 +83,61 @@ CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/ColonDashAutomaton.cpp -o CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.s
 
+CMakeFiles/Project_1.dir/Comma.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Comma.cpp.o: ../Comma.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project_1.dir/Comma.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Comma.cpp.o -c /users/guest/t/tw443/proj_1/Comma.cpp
+
+CMakeFiles/Project_1.dir/Comma.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Comma.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/Comma.cpp > CMakeFiles/Project_1.dir/Comma.cpp.i
+
+CMakeFiles/Project_1.dir/Comma.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Comma.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/Comma.cpp -o CMakeFiles/Project_1.dir/Comma.cpp.s
+
+CMakeFiles/Project_1.dir/Comment.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Comment.cpp.o: ../Comment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project_1.dir/Comment.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Comment.cpp.o -c /users/guest/t/tw443/proj_1/Comment.cpp
+
+CMakeFiles/Project_1.dir/Comment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Comment.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/Comment.cpp > CMakeFiles/Project_1.dir/Comment.cpp.i
+
+CMakeFiles/Project_1.dir/Comment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Comment.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/Comment.cpp -o CMakeFiles/Project_1.dir/Comment.cpp.s
+
+CMakeFiles/Project_1.dir/ID.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/ID.cpp.o: ../ID.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Project_1.dir/ID.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/ID.cpp.o -c /users/guest/t/tw443/proj_1/ID.cpp
+
+CMakeFiles/Project_1.dir/ID.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/ID.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/ID.cpp > CMakeFiles/Project_1.dir/ID.cpp.i
+
+CMakeFiles/Project_1.dir/ID.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/ID.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/ID.cpp -o CMakeFiles/Project_1.dir/ID.cpp.s
+
+CMakeFiles/Project_1.dir/Left_Paren.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Left_Paren.cpp.o: ../Left_Paren.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Project_1.dir/Left_Paren.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Left_Paren.cpp.o -c /users/guest/t/tw443/proj_1/Left_Paren.cpp
+
+CMakeFiles/Project_1.dir/Left_Paren.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Left_Paren.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/Left_Paren.cpp > CMakeFiles/Project_1.dir/Left_Paren.cpp.i
+
+CMakeFiles/Project_1.dir/Left_Paren.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Left_Paren.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/Left_Paren.cpp -o CMakeFiles/Project_1.dir/Left_Paren.cpp.s
+
 CMakeFiles/Project_1.dir/Lexer.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Lexer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project_1.dir/Lexer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Project_1.dir/Lexer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Lexer.cpp.o -c /users/guest/t/tw443/proj_1/Lexer.cpp
 
 CMakeFiles/Project_1.dir/Lexer.cpp.i: cmake_force
@@ -98,7 +150,7 @@ CMakeFiles/Project_1.dir/Lexer.cpp.s: cmake_force
 
 CMakeFiles/Project_1.dir/main.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Project_1.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Project_1.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/main.cpp.o -c /users/guest/t/tw443/proj_1/main.cpp
 
 CMakeFiles/Project_1.dir/main.cpp.i: cmake_force
@@ -109,9 +161,113 @@ CMakeFiles/Project_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/main.cpp -o CMakeFiles/Project_1.dir/main.cpp.s
 
+CMakeFiles/Project_1.dir/Multiply.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Multiply.cpp.o: ../Multiply.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Project_1.dir/Multiply.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Multiply.cpp.o -c /users/guest/t/tw443/proj_1/Multiply.cpp
+
+CMakeFiles/Project_1.dir/Multiply.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Multiply.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/Multiply.cpp > CMakeFiles/Project_1.dir/Multiply.cpp.i
+
+CMakeFiles/Project_1.dir/Multiply.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Multiply.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/Multiply.cpp -o CMakeFiles/Project_1.dir/Multiply.cpp.s
+
+CMakeFiles/Project_1.dir/Period.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Period.cpp.o: ../Period.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Project_1.dir/Period.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Period.cpp.o -c /users/guest/t/tw443/proj_1/Period.cpp
+
+CMakeFiles/Project_1.dir/Period.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Period.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/Period.cpp > CMakeFiles/Project_1.dir/Period.cpp.i
+
+CMakeFiles/Project_1.dir/Period.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Period.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/Period.cpp -o CMakeFiles/Project_1.dir/Period.cpp.s
+
+CMakeFiles/Project_1.dir/Q_Mark.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Q_Mark.cpp.o: ../Q_Mark.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Project_1.dir/Q_Mark.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Q_Mark.cpp.o -c /users/guest/t/tw443/proj_1/Q_Mark.cpp
+
+CMakeFiles/Project_1.dir/Q_Mark.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Q_Mark.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/Q_Mark.cpp > CMakeFiles/Project_1.dir/Q_Mark.cpp.i
+
+CMakeFiles/Project_1.dir/Q_Mark.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Q_Mark.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/Q_Mark.cpp -o CMakeFiles/Project_1.dir/Q_Mark.cpp.s
+
+CMakeFiles/Project_1.dir/Queries.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Queries.cpp.o: ../Queries.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Project_1.dir/Queries.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Queries.cpp.o -c /users/guest/t/tw443/proj_1/Queries.cpp
+
+CMakeFiles/Project_1.dir/Queries.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Queries.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/Queries.cpp > CMakeFiles/Project_1.dir/Queries.cpp.i
+
+CMakeFiles/Project_1.dir/Queries.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Queries.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/Queries.cpp -o CMakeFiles/Project_1.dir/Queries.cpp.s
+
+CMakeFiles/Project_1.dir/Right_Paren.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Right_Paren.cpp.o: ../Right_Paren.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/Project_1.dir/Right_Paren.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Right_Paren.cpp.o -c /users/guest/t/tw443/proj_1/Right_Paren.cpp
+
+CMakeFiles/Project_1.dir/Right_Paren.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Right_Paren.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/Right_Paren.cpp > CMakeFiles/Project_1.dir/Right_Paren.cpp.i
+
+CMakeFiles/Project_1.dir/Right_Paren.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Right_Paren.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/Right_Paren.cpp -o CMakeFiles/Project_1.dir/Right_Paren.cpp.s
+
+CMakeFiles/Project_1.dir/Rules.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Rules.cpp.o: ../Rules.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/Project_1.dir/Rules.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Rules.cpp.o -c /users/guest/t/tw443/proj_1/Rules.cpp
+
+CMakeFiles/Project_1.dir/Rules.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Rules.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/Rules.cpp > CMakeFiles/Project_1.dir/Rules.cpp.i
+
+CMakeFiles/Project_1.dir/Rules.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Rules.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/Rules.cpp -o CMakeFiles/Project_1.dir/Rules.cpp.s
+
+CMakeFiles/Project_1.dir/Schemes.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/Schemes.cpp.o: ../Schemes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Project_1.dir/Schemes.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Schemes.cpp.o -c /users/guest/t/tw443/proj_1/Schemes.cpp
+
+CMakeFiles/Project_1.dir/Schemes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/Schemes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/Schemes.cpp > CMakeFiles/Project_1.dir/Schemes.cpp.i
+
+CMakeFiles/Project_1.dir/Schemes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/Schemes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/Schemes.cpp -o CMakeFiles/Project_1.dir/Schemes.cpp.s
+
+CMakeFiles/Project_1.dir/String.cpp.o: CMakeFiles/Project_1.dir/flags.make
+CMakeFiles/Project_1.dir/String.cpp.o: ../String.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Project_1.dir/String.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/String.cpp.o -c /users/guest/t/tw443/proj_1/String.cpp
+
+CMakeFiles/Project_1.dir/String.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project_1.dir/String.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /users/guest/t/tw443/proj_1/String.cpp > CMakeFiles/Project_1.dir/String.cpp.i
+
+CMakeFiles/Project_1.dir/String.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project_1.dir/String.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /users/guest/t/tw443/proj_1/String.cpp -o CMakeFiles/Project_1.dir/String.cpp.s
+
 CMakeFiles/Project_1.dir/Token.cpp.o: CMakeFiles/Project_1.dir/flags.make
 CMakeFiles/Project_1.dir/Token.cpp.o: ../Token.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Project_1.dir/Token.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Project_1.dir/Token.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project_1.dir/Token.cpp.o -c /users/guest/t/tw443/proj_1/Token.cpp
 
 CMakeFiles/Project_1.dir/Token.cpp.i: cmake_force
@@ -126,8 +282,20 @@ CMakeFiles/Project_1.dir/Token.cpp.s: cmake_force
 Project_1_OBJECTS = \
 "CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o" \
 "CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o" \
+"CMakeFiles/Project_1.dir/Comma.cpp.o" \
+"CMakeFiles/Project_1.dir/Comment.cpp.o" \
+"CMakeFiles/Project_1.dir/ID.cpp.o" \
+"CMakeFiles/Project_1.dir/Left_Paren.cpp.o" \
 "CMakeFiles/Project_1.dir/Lexer.cpp.o" \
 "CMakeFiles/Project_1.dir/main.cpp.o" \
+"CMakeFiles/Project_1.dir/Multiply.cpp.o" \
+"CMakeFiles/Project_1.dir/Period.cpp.o" \
+"CMakeFiles/Project_1.dir/Q_Mark.cpp.o" \
+"CMakeFiles/Project_1.dir/Queries.cpp.o" \
+"CMakeFiles/Project_1.dir/Right_Paren.cpp.o" \
+"CMakeFiles/Project_1.dir/Rules.cpp.o" \
+"CMakeFiles/Project_1.dir/Schemes.cpp.o" \
+"CMakeFiles/Project_1.dir/String.cpp.o" \
 "CMakeFiles/Project_1.dir/Token.cpp.o"
 
 # External object files for target Project_1
@@ -135,12 +303,24 @@ Project_1_EXTERNAL_OBJECTS =
 
 Project_1: CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o
 Project_1: CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o
+Project_1: CMakeFiles/Project_1.dir/Comma.cpp.o
+Project_1: CMakeFiles/Project_1.dir/Comment.cpp.o
+Project_1: CMakeFiles/Project_1.dir/ID.cpp.o
+Project_1: CMakeFiles/Project_1.dir/Left_Paren.cpp.o
 Project_1: CMakeFiles/Project_1.dir/Lexer.cpp.o
 Project_1: CMakeFiles/Project_1.dir/main.cpp.o
+Project_1: CMakeFiles/Project_1.dir/Multiply.cpp.o
+Project_1: CMakeFiles/Project_1.dir/Period.cpp.o
+Project_1: CMakeFiles/Project_1.dir/Q_Mark.cpp.o
+Project_1: CMakeFiles/Project_1.dir/Queries.cpp.o
+Project_1: CMakeFiles/Project_1.dir/Right_Paren.cpp.o
+Project_1: CMakeFiles/Project_1.dir/Rules.cpp.o
+Project_1: CMakeFiles/Project_1.dir/Schemes.cpp.o
+Project_1: CMakeFiles/Project_1.dir/String.cpp.o
 Project_1: CMakeFiles/Project_1.dir/Token.cpp.o
 Project_1: CMakeFiles/Project_1.dir/build.make
 Project_1: CMakeFiles/Project_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Project_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/users/guest/t/tw443/proj_1/cmake-build-debug-z-leb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable Project_1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project_1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

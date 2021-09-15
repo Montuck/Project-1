@@ -13,6 +13,7 @@
 #include "Schemes.h"
 #include "String.h"
 #include "ID.h"
+#include "Comment.h"
 #include <iostream>
 
 Lexer::Lexer() {
@@ -26,13 +27,19 @@ Lexer::~Lexer() {
 void Lexer::CreateAutomata() {
     automata.push_back(new RulesAutomaton());
     automata.push_back(new QueriesAutomaton());
-    automata.push_back(new ColonAutomaton());
+    automata.push_back(new SchemesAutomaton());
+    automata.push_back(new ColonAutomaton());//works
     automata.push_back(new IDAutomaton());
-    automata.push_back(new Left_Paren_Automaton());
+    automata.push_back(new Left_Paren_Automaton());//works
     automata.push_back(new StringAutomaton());
-    automata.push_back(new CommaAutomaton());
-    automata.push_back(new StringAutomaton());
-    automata.push_back(new ColonDashAutomaton());
+    automata.push_back(new CommaAutomaton());//works
+    automata.push_back(new AddAutomaton());//works
+    automata.push_back(new MultiplyAutomaton());//works
+    automata.push_back(new Right_Paren_Automaton());//works
+    automata.push_back(new ColonDashAutomaton());//works
+    automata.push_back(new Q_Mark_Automaton());//works
+    automata.push_back(new PeriodAutomaton());//works
+    automata.push_back(new CommentAutomaton());
     // TODO: Add the other needed automata here
 }
 
@@ -46,6 +53,9 @@ void Lexer::Run(std::string& input) {
         maxRead = 0;
         maxAutomaton = automata.front();
         while (isspace(input[0])) {
+            if (input[0] == '\n') {
+                lineNumber += 1;
+            }
             input.erase(input.begin());
         }
         for (int i = 0; i < automata.size(); i++) {
@@ -68,4 +78,11 @@ void Lexer::Run(std::string& input) {
         input.erase(0, maxRead);
     }
     tokens.push_back(new Token(TokenType::EFO, "", lineNumber));
+}
+
+void Lexer::Print() {
+    for (int i = 0; i < tokens.size(); i++) {
+        cout << tokens.at(i)->toString() << endl;
+    }
+    cout << endl << "Total tokens " << tokens.size() << endl;
 }

@@ -11,17 +11,84 @@ CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o
  /users/guest/t/tw443/proj_1/ColonDashAutomaton.cpp
  /users/guest/t/tw443/proj_1/ColonDashAutomaton.h
  /users/guest/t/tw443/proj_1/Token.h
+CMakeFiles/Project_1.dir/Comma.cpp.o
+ /users/guest/t/tw443/proj_1/Automaton.h
+ /users/guest/t/tw443/proj_1/Comma.cpp
+ /users/guest/t/tw443/proj_1/Comma.h
+ /users/guest/t/tw443/proj_1/Token.h
+CMakeFiles/Project_1.dir/Comment.cpp.o
+ /users/guest/t/tw443/proj_1/Automaton.h
+ /users/guest/t/tw443/proj_1/Comment.cpp
+ /users/guest/t/tw443/proj_1/Comment.h
+ /users/guest/t/tw443/proj_1/Token.h
+CMakeFiles/Project_1.dir/ID.cpp.o
+ /users/guest/t/tw443/proj_1/Automaton.h
+ /users/guest/t/tw443/proj_1/ID.cpp
+ /users/guest/t/tw443/proj_1/ID.h
+ /users/guest/t/tw443/proj_1/Token.h
+CMakeFiles/Project_1.dir/Left_Paren.cpp.o
+ /users/guest/t/tw443/proj_1/Automaton.h
+ /users/guest/t/tw443/proj_1/Left_Paren.cpp
+ /users/guest/t/tw443/proj_1/Left_Paren.h
+ /users/guest/t/tw443/proj_1/Token.h
 CMakeFiles/Project_1.dir/Lexer.cpp.o
+ /users/guest/t/tw443/proj_1/Add.h
  /users/guest/t/tw443/proj_1/Automaton.h
  /users/guest/t/tw443/proj_1/ColonAutomaton.h
  /users/guest/t/tw443/proj_1/ColonDashAutomaton.h
+ /users/guest/t/tw443/proj_1/Comma.h
+ /users/guest/t/tw443/proj_1/ID.h
+ /users/guest/t/tw443/proj_1/Left_Paren.h
  /users/guest/t/tw443/proj_1/Lexer.cpp
  /users/guest/t/tw443/proj_1/Lexer.h
+ /users/guest/t/tw443/proj_1/Multiply.h
+ /users/guest/t/tw443/proj_1/Period.h
+ /users/guest/t/tw443/proj_1/Q_Mark.h
+ /users/guest/t/tw443/proj_1/Queries.h
+ /users/guest/t/tw443/proj_1/Right_Paren.h
+ /users/guest/t/tw443/proj_1/Rules.h
+ /users/guest/t/tw443/proj_1/Schemes.h
+ /users/guest/t/tw443/proj_1/String.h
  /users/guest/t/tw443/proj_1/Token.h
-CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.o
+CMakeFiles/Project_1.dir/Multiply.cpp.o
  /users/guest/t/tw443/proj_1/Automaton.h
- /users/guest/t/tw443/proj_1/MatcherAutomaton.cpp
- /users/guest/t/tw443/proj_1/MatcherAutomaton.h
+ /users/guest/t/tw443/proj_1/Multiply.cpp
+ /users/guest/t/tw443/proj_1/Multiply.h
+ /users/guest/t/tw443/proj_1/Token.h
+CMakeFiles/Project_1.dir/Period.cpp.o
+ /users/guest/t/tw443/proj_1/Automaton.h
+ /users/guest/t/tw443/proj_1/Period.cpp
+ /users/guest/t/tw443/proj_1/Period.h
+ /users/guest/t/tw443/proj_1/Token.h
+CMakeFiles/Project_1.dir/Q_Mark.cpp.o
+ /users/guest/t/tw443/proj_1/Automaton.h
+ /users/guest/t/tw443/proj_1/Q_Mark.cpp
+ /users/guest/t/tw443/proj_1/Q_Mark.h
+ /users/guest/t/tw443/proj_1/Token.h
+CMakeFiles/Project_1.dir/Queries.cpp.o
+ /users/guest/t/tw443/proj_1/Automaton.h
+ /users/guest/t/tw443/proj_1/Queries.cpp
+ /users/guest/t/tw443/proj_1/Queries.h
+ /users/guest/t/tw443/proj_1/Token.h
+CMakeFiles/Project_1.dir/Right_Paren.cpp.o
+ /users/guest/t/tw443/proj_1/Automaton.h
+ /users/guest/t/tw443/proj_1/Right_Paren.cpp
+ /users/guest/t/tw443/proj_1/Right_Paren.h
+ /users/guest/t/tw443/proj_1/Token.h
+CMakeFiles/Project_1.dir/Rules.cpp.o
+ /users/guest/t/tw443/proj_1/Automaton.h
+ /users/guest/t/tw443/proj_1/Rules.cpp
+ /users/guest/t/tw443/proj_1/Rules.h
+ /users/guest/t/tw443/proj_1/Token.h
+CMakeFiles/Project_1.dir/Schemes.cpp.o
+ /users/guest/t/tw443/proj_1/Automaton.h
+ /users/guest/t/tw443/proj_1/Schemes.cpp
+ /users/guest/t/tw443/proj_1/Schemes.h
+ /users/guest/t/tw443/proj_1/Token.h
+CMakeFiles/Project_1.dir/String.cpp.o
+ /users/guest/t/tw443/proj_1/Automaton.h
+ /users/guest/t/tw443/proj_1/String.cpp
+ /users/guest/t/tw443/proj_1/String.h
  /users/guest/t/tw443/proj_1/Token.h
 CMakeFiles/Project_1.dir/Token.cpp.o
  /users/guest/t/tw443/proj_1/Token.cpp

@@ -10,24 +10,6 @@
 Token.h
 /users/guest/t/tw443/proj_1/Token.h
 
-/users/guest/t/tw443/proj_1/ColonAutomaton.h
-Automaton.h
-/users/guest/t/tw443/proj_1/Automaton.h
-
-/users/guest/t/tw443/proj_1/ColonDashAutomaton.h
-Automaton.h
-/users/guest/t/tw443/proj_1/Automaton.h
-
-/users/guest/t/tw443/proj_1/Lexer.cpp
-Lexer.h
-/users/guest/t/tw443/proj_1/Lexer.h
-ColonAutomaton.h
-/users/guest/t/tw443/proj_1/ColonAutomaton.h
-ColonDashAutomaton.h
-/users/guest/t/tw443/proj_1/ColonDashAutomaton.h
-iostream
--
-
 /users/guest/t/tw443/proj_1/Lexer.h
 vector
 -

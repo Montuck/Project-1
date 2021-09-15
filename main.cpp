@@ -5,32 +5,29 @@
 using namespace std;
 
 int main(int argc, char** argv) {
-    TokenType teKen = TokenType::COLON;
-    string what = ":";
-    int line = 1;
-    Token typo(teKen, what, line);
+    //Check if command argument is valid
     if (argc != 2) {
         cout << "no file" << endl;
         return 1;
     }
+    //Set filename and ifstream
     string fileName = argv[1];
     ifstream fin(fileName);
+    string token = "";
     if (fin.is_open()) {
-        char c = fin.get();
-        while (fin.peek() != EOF) {
-            cout << c;
-            c = fin.get();
-        }
-        cout << endl << endl;
+        char c = ' ';
+        while (c != EOF) {
+           c = fin.get();
+           if (c == EOF) {break;}
+           token += c;
+       }
     }
     else if (!(fin.is_open())) {
         cout << "failure" << endl;
     }
     Lexer* lexer = new Lexer();
-
-    string col = ":-";
-    lexer->Run(col);
-    cout << typo.toString(TokenType::COLON) << endl;
+    lexer->Run(token);
+    lexer->Print();
     // TODO
 
     delete lexer;

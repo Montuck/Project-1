@@ -11,17 +11,84 @@ CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o: ../ColonDashAutomaton.cpp
 CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o: ../ColonDashAutomaton.h
 CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o: ../Token.h
 
+CMakeFiles/Project_1.dir/Comma.cpp.o: ../Automaton.h
+CMakeFiles/Project_1.dir/Comma.cpp.o: ../Comma.cpp
+CMakeFiles/Project_1.dir/Comma.cpp.o: ../Comma.h
+CMakeFiles/Project_1.dir/Comma.cpp.o: ../Token.h
+
+CMakeFiles/Project_1.dir/Comment.cpp.o: ../Automaton.h
+CMakeFiles/Project_1.dir/Comment.cpp.o: ../Comment.cpp
+CMakeFiles/Project_1.dir/Comment.cpp.o: ../Comment.h
+CMakeFiles/Project_1.dir/Comment.cpp.o: ../Token.h
+
+CMakeFiles/Project_1.dir/ID.cpp.o: ../Automaton.h
+CMakeFiles/Project_1.dir/ID.cpp.o: ../ID.cpp
+CMakeFiles/Project_1.dir/ID.cpp.o: ../ID.h
+CMakeFiles/Project_1.dir/ID.cpp.o: ../Token.h
+
+CMakeFiles/Project_1.dir/Left_Paren.cpp.o: ../Automaton.h
+CMakeFiles/Project_1.dir/Left_Paren.cpp.o: ../Left_Paren.cpp
+CMakeFiles/Project_1.dir/Left_Paren.cpp.o: ../Left_Paren.h
+CMakeFiles/Project_1.dir/Left_Paren.cpp.o: ../Token.h
+
+CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Add.h
 CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Automaton.h
 CMakeFiles/Project_1.dir/Lexer.cpp.o: ../ColonAutomaton.h
 CMakeFiles/Project_1.dir/Lexer.cpp.o: ../ColonDashAutomaton.h
+CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Comma.h
+CMakeFiles/Project_1.dir/Lexer.cpp.o: ../ID.h
+CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Left_Paren.h
 CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Lexer.cpp
 CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Lexer.h
+CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Multiply.h
+CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Period.h
+CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Q_Mark.h
+CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Queries.h
+CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Right_Paren.h
+CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Rules.h
+CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Schemes.h
+CMakeFiles/Project_1.dir/Lexer.cpp.o: ../String.h
 CMakeFiles/Project_1.dir/Lexer.cpp.o: ../Token.h
 
-CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.o: ../Automaton.h
-CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.o: ../MatcherAutomaton.cpp
-CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.o: ../MatcherAutomaton.h
-CMakeFiles/Project_1.dir/MatcherAutomaton.cpp.o: ../Token.h
+CMakeFiles/Project_1.dir/Multiply.cpp.o: ../Automaton.h
+CMakeFiles/Project_1.dir/Multiply.cpp.o: ../Multiply.cpp
+CMakeFiles/Project_1.dir/Multiply.cpp.o: ../Multiply.h
+CMakeFiles/Project_1.dir/Multiply.cpp.o: ../Token.h
+
+CMakeFiles/Project_1.dir/Period.cpp.o: ../Automaton.h
+CMakeFiles/Project_1.dir/Period.cpp.o: ../Period.cpp
+CMakeFiles/Project_1.dir/Period.cpp.o: ../Period.h
+CMakeFiles/Project_1.dir/Period.cpp.o: ../Token.h
+
+CMakeFiles/Project_1.dir/Q_Mark.cpp.o: ../Automaton.h
+CMakeFiles/Project_1.dir/Q_Mark.cpp.o: ../Q_Mark.cpp
+CMakeFiles/Project_1.dir/Q_Mark.cpp.o: ../Q_Mark.h
+CMakeFiles/Project_1.dir/Q_Mark.cpp.o: ../Token.h
+
+CMakeFiles/Project_1.dir/Queries.cpp.o: ../Automaton.h
+CMakeFiles/Project_1.dir/Queries.cpp.o: ../Queries.cpp
+CMakeFiles/Project_1.dir/Queries.cpp.o: ../Queries.h
+CMakeFiles/Project_1.dir/Queries.cpp.o: ../Token.h
+
+CMakeFiles/Project_1.dir/Right_Paren.cpp.o: ../Automaton.h
+CMakeFiles/Project_1.dir/Right_Paren.cpp.o: ../Right_Paren.cpp
+CMakeFiles/Project_1.dir/Right_Paren.cpp.o: ../Right_Paren.h
+CMakeFiles/Project_1.dir/Right_Paren.cpp.o: ../Token.h
+
+CMakeFiles/Project_1.dir/Rules.cpp.o: ../Automaton.h
+CMakeFiles/Project_1.dir/Rules.cpp.o: ../Rules.cpp
+CMakeFiles/Project_1.dir/Rules.cpp.o: ../Rules.h
+CMakeFiles/Project_1.dir/Rules.cpp.o: ../Token.h
+
+CMakeFiles/Project_1.dir/Schemes.cpp.o: ../Automaton.h
+CMakeFiles/Project_1.dir/Schemes.cpp.o: ../Schemes.cpp
+CMakeFiles/Project_1.dir/Schemes.cpp.o: ../Schemes.h
+CMakeFiles/Project_1.dir/Schemes.cpp.o: ../Token.h
+
+CMakeFiles/Project_1.dir/String.cpp.o: ../Automaton.h
+CMakeFiles/Project_1.dir/String.cpp.o: ../String.cpp
+CMakeFiles/Project_1.dir/String.cpp.o: ../String.h
+CMakeFiles/Project_1.dir/String.cpp.o: ../Token.h
 
 CMakeFiles/Project_1.dir/Token.cpp.o: ../Token.cpp
 CMakeFiles/Project_1.dir/Token.cpp.o: ../Token.h
