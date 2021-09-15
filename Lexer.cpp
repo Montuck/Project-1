@@ -14,6 +14,7 @@
 #include "String.h"
 #include "ID.h"
 #include "Comment.h"
+#include "BlockComment.h"
 #include <iostream>
 
 Lexer::Lexer() {
@@ -40,6 +41,7 @@ void Lexer::CreateAutomata() {
     automata.push_back(new Q_Mark_Automaton());//works
     automata.push_back(new PeriodAutomaton());//works
     automata.push_back(new CommentAutomaton());
+    automata.push_back(new BlockCommentAutomaton());
     // TODO: Add the other needed automata here
 }
 

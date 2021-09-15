@@ -9,6 +9,8 @@ add_executable(Project_1
         Add.h
         Add.cpp
         Automaton.h
+        BlockComment.cpp
+        BlockComment.h
         ColonAutomaton.cpp
         ColonAutomaton.h
         ColonDashAutomaton.cpp
