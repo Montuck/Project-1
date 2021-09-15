@@ -6,10 +6,10 @@
 #define COMMENT_H
 #include "Automaton.h"
 
-class IDAutomaton : public Automaton
+class CommentAutomaton : public Automaton
 {
 public:
-    IDAutomaton() : Automaton(TokenType::ID) {}  // Call the base constructor
+    CommentAutomaton() : Automaton(TokenType::COMMENT) {}  // Call the base constructor
 
     void S0(const std::string& input);
 };

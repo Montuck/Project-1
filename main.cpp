@@ -30,6 +30,7 @@ int main(int argc, char** argv) {
 
     string col = ":-";
     lexer->Run(col);
+    cout << typo.toString(TokenType::COLON) << endl;
     // TODO
 
     delete lexer;

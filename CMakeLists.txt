@@ -11,9 +11,33 @@ add_executable(Project_1
         ColonAutomaton.h
         ColonDashAutomaton.cpp
         ColonDashAutomaton.h
+        Comma.cpp
+        Comma.h
+        Comment.cpp
+        Comment.h
+        ID.cpp
+        ID.h
+        Left_Paren.cpp
+        Left_Paren.h
         Lexer.cpp
         Lexer.h
         main.cpp
+        Multiply.cpp
+        Multiply.h
+        Period.cpp
+        Period.h
+        Q_Mark.cpp
+        Q_Mark.h
+        Queries.cpp
+        Queries.h
+        Right_Paren.cpp
+        Right_Paren.h
+        Rules.cpp
+        Rules.h
+        Schemes.cpp
+        Schemes.h
+        String.cpp
+        String.h
         Token.cpp
         Token.h
         )

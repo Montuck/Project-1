@@ -18,11 +18,16 @@ public:
     ~Lexer();
 
     void Run(std::string& input);
+    //Token
     // TODO: add other public methods here
 
 };
 
 #endif // LEXER_H
+
+
+
+
 // TODO: convert this pseudo-code with the algorithm into actual C++ code
 
 /*

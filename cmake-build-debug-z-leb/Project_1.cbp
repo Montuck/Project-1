@@ -105,12 +105,6 @@
 		<Unit filename="/users/guest/t/tw443/proj_1/Lexer.h">
 			<Option target="Project_1"/>
 		</Unit>
-		<Unit filename="/users/guest/t/tw443/proj_1/MatcherAutomaton.cpp">
-			<Option target="Project_1"/>
-		</Unit>
-		<Unit filename="/users/guest/t/tw443/proj_1/MatcherAutomaton.h">
-			<Option target="Project_1"/>
-		</Unit>
 		<Unit filename="/users/guest/t/tw443/proj_1/Token.cpp">
 			<Option target="Project_1"/>
 		</Unit>
