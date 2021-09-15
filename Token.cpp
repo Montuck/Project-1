@@ -1,4 +1,5 @@
 #include "Token.h"
+#include <iostream>
 
 Token::Token(TokenType token, std::string description, int line) {
     type = token;
@@ -7,64 +8,65 @@ Token::Token(TokenType token, std::string description, int line) {
 }
 
 string Token::toString() {
-   string output = "(";
-   output += getEnumString(type);
-   output += ',';
-   output += '"';
-   output += getTokenType(type);
-   output += '"';
-   output += ',';
-   output += to_string(lineNumber);
-   output += ")";
-   return output;
-}
-
-string Token::getTokenType(TokenType _type){
-    switch(_type) {
-        case TokenType::COLON: return ":"; break;
-        case TokenType::COLON_DASH: return ":-"; break;
-        case TokenType::COMMA: return ","; break;
-        case TokenType::PERIOD: return "."; break;
-        case TokenType::Q_MARK: return "?"; break;
-        case TokenType::LEFT_PAREN: return "("; break;
-        case TokenType::RIGHT_PAREN: return ")"; break;
-        case TokenType::MULTIPLY: return "*"; break;
-        case TokenType::ADD: return "+"; break;
-        case TokenType::SCHEMES: return "Schemes"; break;
-        case TokenType::FACTS: return "Facts"; break;
-        case TokenType::RULES: return "Rules"; break;
-        case TokenType::QUERIES: return "Queries"; break;
-        case TokenType::ID: return "ID"; break;
-        case TokenType::STRING: return "string"; break;
-        case TokenType::COMMENT: return "comment"; break;
-        case TokenType::EFO: return "eof"; break;
-        case TokenType::UNDEFINED: return "undefined"; break;
+    string output = "";
+    switch(type) {
+        case TokenType::COLON:
+            output = "(COLON, \":\", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::COLON_DASH:
+            output = "(COLON_DASH, \":-\", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::COMMA:
+            output = "(COMMA, \",\", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::PERIOD:
+            output = "(PERIOD, \".\", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::Q_MARK:
+            output = "(Q_MARK, \"?\", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::LEFT_PAREN:
+            output = "(LEFT_PAREN, \"(\", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::RIGHT_PAREN:
+            output = "(RIGHT_PAREN, \")\", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::MULTIPLY:
+            output = "(MULTIPLY, \"*\", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::ADD:
+            output =  "(ADD, \"+\", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::SCHEMES:
+            output = "(SCHEMES, \"Schemes\", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::FACTS:
+            output = "(FACTS, \"Facts\", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::RULES:
+            output = "(RULES, \"Rules\", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::QUERIES:
+            output = "(QUERIES, \"Queries\", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::ID:
+            output = "(ID, " + value + ", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::STRING:
+            output = "(STRING, " + value + ", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::COMMENT:
+            output = "(COMMENT, " + value + ", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::EFO:
+            output = "(EOF, \"\", " + to_string(lineNumber) + ")";
+            break;
+        case TokenType::UNDEFINED:
+            output = "(UNDEFINED, \"$\", " + to_string(lineNumber) + ")";
+            break;
         default: return "nothing"; break;
     }
-}
-
-string Token::getEnumString(TokenType _type) {
-    switch(_type) {
-        case TokenType::COLON: return "COLON"; break;
-        case TokenType::COLON_DASH: return "COLON_DASH"; break;
-        case TokenType::COMMA: return "COMMA"; break;
-        case TokenType::PERIOD: return "PERIOD"; break;
-        case TokenType::Q_MARK: return "Q_MARK"; break;
-        case TokenType::LEFT_PAREN: return "LEFT_PAREN"; break;
-        case TokenType::RIGHT_PAREN: return "RIGHT_PAREN"; break;
-        case TokenType::MULTIPLY: return "MULTIPLY"; break;
-        case TokenType::ADD: return "ADD"; break;
-        case TokenType::SCHEMES: return "SCHEMES"; break;
-        case TokenType::FACTS: return "FACTS"; break;
-        case TokenType::RULES: return "RULES"; break;
-        case TokenType::QUERIES: return "QUERIES"; break;
-        case TokenType::ID: return "ID"; break;
-        case TokenType::STRING: return "STRING"; break;
-        case TokenType::COMMENT: return "COMMENT"; break;
-        case TokenType::EFO: return "EOF"; break;
-        case TokenType::UNDEFINED: return "UNDEFINED"; break;
-        default: return "nothing"; break;
-    }
+    return output;
 }
 
 

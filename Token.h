@@ -36,8 +36,6 @@ public:
     //Token();
     Token(TokenType token, string description, int line);
     string toString();
-    string getTokenType(TokenType _type);
-    string getEnumString(TokenType _type);
 };
 
 #endif // TOKEN_H

@@ -1,10 +1,8 @@
 //
 // Created by oblit on 9/15/2021.
 //
-
 #ifndef BLOCKCOMMENT_H
 #define BLOCKCOMMENT_H
-#ifndef COMMENT_H
 #define COMMENT_H
 #include "Automaton.h"
 

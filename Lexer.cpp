@@ -26,9 +26,9 @@ Lexer::~Lexer() {
 }
 
 void Lexer::CreateAutomata() {
-    automata.push_back(new RulesAutomaton());
-    automata.push_back(new QueriesAutomaton());
-    automata.push_back(new SchemesAutomaton());
+    automata.push_back(new RulesAutomaton());//works
+    automata.push_back(new QueriesAutomaton());//works
+    automata.push_back(new SchemesAutomaton());//works
     automata.push_back(new ColonAutomaton());//works
     automata.push_back(new IDAutomaton());
     automata.push_back(new Left_Paren_Automaton());//works
