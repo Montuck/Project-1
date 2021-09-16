@@ -58,7 +58,7 @@ void Lexer::Run(std::string& input) {
             }
             input.erase(0, 1);
         }
-        for (int i = 0; i < automata.size(); i++) {
+        for (unsigned int i = 0; i < automata.size(); i++) {
             inputRead = automata.at(i)->Start(input);
             if (inputRead > maxRead) {
                 maxRead = inputRead;
@@ -82,7 +82,7 @@ void Lexer::Run(std::string& input) {
 }
 
 void Lexer::Print() {
-    for (int i = 0; i < tokens.size(); i++) {
+    for (unsigned int i = 0; i < tokens.size(); i++) {
         cout << tokens.at(i)->toString() << endl;
     }
     cout << endl << "Total tokens " << tokens.size() << endl;
