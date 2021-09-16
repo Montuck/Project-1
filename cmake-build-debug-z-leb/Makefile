@@ -123,6 +123,33 @@ Project_1/fast:
 	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/build
 .PHONY : Project_1/fast
 
+Add.o: Add.cpp.o
+
+.PHONY : Add.o
+
+# target to build an object file
+Add.cpp.o:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Add.cpp.o
+.PHONY : Add.cpp.o
+
+Add.i: Add.cpp.i
+
+.PHONY : Add.i
+
+# target to preprocess a source file
+Add.cpp.i:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Add.cpp.i
+.PHONY : Add.cpp.i
+
+Add.s: Add.cpp.s
+
+.PHONY : Add.s
+
+# target to generate assembly for a file
+Add.cpp.s:
+	$(MAKE) -f CMakeFiles/Project_1.dir/build.make CMakeFiles/Project_1.dir/Add.cpp.s
+.PHONY : Add.cpp.s
+
 ColonAutomaton.o: ColonAutomaton.cpp.o
 
 .PHONY : ColonAutomaton.o
@@ -591,6 +618,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Project_1"
+	@echo "... Add.o"
+	@echo "... Add.i"
+	@echo "... Add.s"
 	@echo "... ColonAutomaton.o"
 	@echo "... ColonAutomaton.i"
 	@echo "... ColonAutomaton.s"

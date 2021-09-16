@@ -14,7 +14,6 @@
 #include "String.h"
 #include "ID.h"
 #include "Comment.h"
-#include "BlockComment.h"
 #include <iostream>
 
 Lexer::Lexer() {
@@ -30,9 +29,9 @@ void Lexer::CreateAutomata() {
     automata.push_back(new QueriesAutomaton());//works
     automata.push_back(new SchemesAutomaton());//works
     automata.push_back(new ColonAutomaton());//works
-    automata.push_back(new IDAutomaton());
+    automata.push_back(new IDAutomaton());//works
     automata.push_back(new Left_Paren_Automaton());//works
-    automata.push_back(new StringAutomaton());
+    automata.push_back(new StringAutomaton());//works
     automata.push_back(new CommaAutomaton());//works
     automata.push_back(new AddAutomaton());//works
     automata.push_back(new MultiplyAutomaton());//works
@@ -41,7 +40,6 @@ void Lexer::CreateAutomata() {
     automata.push_back(new Q_Mark_Automaton());//works
     automata.push_back(new PeriodAutomaton());//works
     automata.push_back(new CommentAutomaton());
-    automata.push_back(new BlockCommentAutomaton());
     // TODO: Add the other needed automata here
 }
 
@@ -58,7 +56,7 @@ void Lexer::Run(std::string& input) {
             if (input[0] == '\n') {
                 lineNumber += 1;
             }
-            input.erase(input.begin());
+            input.erase(0, 1);
         }
         for (int i = 0; i < automata.size(); i++) {
             inputRead = automata.at(i)->Start(input);
@@ -68,7 +66,8 @@ void Lexer::Run(std::string& input) {
             }
         }
         if (maxRead > 0) {
-            newToken = maxAutomaton->CreateToken(input, lineNumber);
+            string newInput = input.substr(0,maxRead);
+            newToken = maxAutomaton->CreateToken(newInput, lineNumber);
             lineNumber += maxAutomaton->NewLinesRead();
             tokens.push_back(newToken);
         }

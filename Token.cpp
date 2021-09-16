@@ -50,13 +50,13 @@ string Token::toString() {
             output = "(QUERIES, \"Queries\", " + to_string(lineNumber) + ")";
             break;
         case TokenType::ID:
-            output = "(ID, " + value + ", " + to_string(lineNumber) + ")";
+            output = "(ID, \"" + value + "\", " + to_string(lineNumber) + ")";
             break;
         case TokenType::STRING:
-            output = "(STRING, " + value + ", " + to_string(lineNumber) + ")";
+            output = "(STRING, \"" + value + "\", " + to_string(lineNumber) + ")";
             break;
         case TokenType::COMMENT:
-            output = "(COMMENT, " + value + ", " + to_string(lineNumber) + ")";
+            output = "(COMMENT, \"" + value + "\", " + to_string(lineNumber) + ")";
             break;
         case TokenType::EFO:
             output = "(EOF, \"\", " + to_string(lineNumber) + ")";

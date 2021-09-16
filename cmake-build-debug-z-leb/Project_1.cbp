@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/users/guest/t/tw443/proj_1/Add.cpp">
+			<Option target="Project_1"/>
+		</Unit>
+		<Unit filename="/users/guest/t/tw443/proj_1/Add.h">
+			<Option target="Project_1"/>
+		</Unit>
 		<Unit filename="/users/guest/t/tw443/proj_1/Automaton.h">
 			<Option target="Project_1"/>
 		</Unit>

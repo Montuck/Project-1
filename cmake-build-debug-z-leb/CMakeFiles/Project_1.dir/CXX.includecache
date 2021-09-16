@@ -10,21 +10,21 @@
 Token.h
 /users/guest/t/tw443/proj_1/Token.h
 
-/users/guest/t/tw443/proj_1/Lexer.h
-vector
--
+/users/guest/t/tw443/proj_1/Comment.cpp
+Comment.h
+/users/guest/t/tw443/proj_1/Comment.h
+
+/users/guest/t/tw443/proj_1/Comment.h
 Automaton.h
 /users/guest/t/tw443/proj_1/Automaton.h
 
+/users/guest/t/tw443/proj_1/Token.cpp
+Token.h
 /users/guest/t/tw443/proj_1/Token.h
-string
--
-
-/users/guest/t/tw443/proj_1/main.cpp
-Lexer.h
-/users/guest/t/tw443/proj_1/Lexer.h
 iostream
 -
-fstream
+
+/users/guest/t/tw443/proj_1/Token.h
+string
 -
 

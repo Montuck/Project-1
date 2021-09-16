@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Project_1.dir/Add.cpp.o"
   "CMakeFiles/Project_1.dir/ColonAutomaton.cpp.o"
   "CMakeFiles/Project_1.dir/ColonDashAutomaton.cpp.o"
   "CMakeFiles/Project_1.dir/Comma.cpp.o"

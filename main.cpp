@@ -16,9 +16,8 @@ int main(int argc, char** argv) {
     string token = "";
     if (fin.is_open()) {
         char c = ' ';
-        while (c != EOF) {
+        while (fin.peek() != EOF) {
            c = fin.get();
-           if (c == EOF) {break;}
            token += c;
        }
     }
