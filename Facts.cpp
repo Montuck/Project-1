@@ -23,7 +23,7 @@ void FactsAutomaton::S1(const std::string& input) {
 }
 
 void FactsAutomaton::S2(const std::string& input) {
-    if (input[index] == 'a' ) {
+    if (input[index] == 'c' ) {
         inputRead += 1;
         index += 1;
         S3(input);
@@ -34,7 +34,7 @@ void FactsAutomaton::S2(const std::string& input) {
 }
 
 void FactsAutomaton::S3(const std::string& input) {
-    if (input[index] == 'c' ) {
+    if (input[index] == 't' ) {
         inputRead += 1;
         index += 1;
         S4(input);
@@ -45,19 +45,9 @@ void FactsAutomaton::S3(const std::string& input) {
 }
 
 void FactsAutomaton::S4(const std::string& input) {
-    if (input[index] == 't' ) {
+    if (input[index] == 's' ) {
         inputRead += 1;
         index += 1;
-        S5(input);
-    }
-    else {
-        Serr();
-    }
-}
-
-void FactsAutomaton::S5(const std::string& input) {
-    if (input[index] == 's' ) {
-        //do nothing
     }
     else {
         Serr();
