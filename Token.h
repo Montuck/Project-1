@@ -36,6 +36,7 @@ public:
     //Token();
     Token(TokenType token, string description, int line);
     string toString();
+    void changeType();
 };
 
 #endif // TOKEN_H

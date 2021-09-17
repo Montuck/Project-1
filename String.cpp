@@ -12,7 +12,10 @@ void StringAutomaton::S0(const std::string& input) {
 }
 
 void StringAutomaton::S1(const std::string& input) {
-    if (input[index] != '\'') {
+    if (index == input.size()) {
+        type = TokenType::UNDEFINED;
+    }
+    else if (input[index] != '\'') {
         inputRead += 1;
         index += 1;
         S1(input);
@@ -20,8 +23,5 @@ void StringAutomaton::S1(const std::string& input) {
     else if (input[index] == '\'') {
         inputRead += 1;
         index += 1;
-    }
-    else {
-        Serr();
     }
 }

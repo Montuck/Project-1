@@ -28,7 +28,7 @@ void CommentAutomaton::S1(const std::string& input) {
 }
 
 void CommentAutomaton::SL(const std::string& input) {
-    if (input[index] != '\n' && index != input.size() && index != '\r') {
+    if (input[index] != '\n' && index != input.size()) {
         inputRead += 1;
         index += 1;
         SL(input);

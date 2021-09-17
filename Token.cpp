@@ -62,11 +62,15 @@ string Token::toString() {
             output = "(EOF,\"\"," + to_string(lineNumber) + ")";
             break;
         case TokenType::UNDEFINED:
-            output = "(UNDEFINED,\"$\"," + to_string(lineNumber) + ")";
+            output = "(UNDEFINED,\"" + value + "\"," + to_string(lineNumber) + ")";
             break;
         default: return "nothing"; break;
     }
     return output;
+}
+
+void Token::changeType() {
+    type = TokenType::UNDEFINED;
 }
 
 

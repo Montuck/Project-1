@@ -12,7 +12,10 @@ void IDAutomaton::S0(const std::string& input) {
 }
 
 void IDAutomaton::S1(const std::string& input) {
-    if(isspace(input[index])) {
+    if(index == input.size()) {
+        Serr();
+    }
+    else if(isspace(input[index])) {
         //do nothing
     }
     else if (isalnum(input[index])) {

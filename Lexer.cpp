@@ -39,7 +39,7 @@ void Lexer::CreateAutomata() {
     automata.push_back(new ColonDashAutomaton());//works
     automata.push_back(new Q_Mark_Automaton());//works
     automata.push_back(new PeriodAutomaton());//works
-    automata.push_back(new CommentAutomaton());
+    automata.push_back(new CommentAutomaton());//works
     // TODO: Add the other needed automata here
 }
 
@@ -58,6 +58,9 @@ void Lexer::Run(std::string& input) {
             }
             input.erase(0, 1);
         }
+        if (input.size() == 0){
+            break;
+        }
         for (unsigned int i = 0; i < automata.size(); i++) {
             inputRead = automata.at(i)->Start(input);
             if (inputRead > maxRead) {
@@ -73,7 +76,7 @@ void Lexer::Run(std::string& input) {
         }
         else{
             maxRead = 1;
-            newToken = new Token(TokenType::UNDEFINED, "", lineNumber);
+            newToken = new Token(TokenType::UNDEFINED, input.substr(0 ,maxRead), lineNumber);
             tokens.push_back(newToken);
         }
         input.erase(0, maxRead);
@@ -85,5 +88,5 @@ void Lexer::Print() {
     for (unsigned int i = 0; i < tokens.size(); i++) {
         cout << tokens.at(i)->toString() << endl;
     }
-    cout << endl << "Total tokens " << tokens.size() << endl;
+    cout << "Total Tokens = " << tokens.size() << endl;
 }
